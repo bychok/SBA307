@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Magic Russian</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <div class="header">
+    <ul class="left-logo">
+      <li>
+        <a href="./index.html">
+          <img
+            src="./assets/magicrussian-logo.svg"
+            alt="Logo / Homepage link"
+          />
+        </a>
+      </li>
+    </ul>
+
+    <ul class="right-links">
+      <li><a href="./register.html">Register</a></li>
+      <li class="dropdown">
+        <a href="./projects.html">Projects</a>
+        <div class="dropdown-content">
+          <a href="#">Project Alpha</a>
+          <a href="#">Project Beta</a>
+          <a href="#">Project Gamma</a>
+        </div>
+      </li>
+      <li><a href="./login.html">Login</a></li>
+    </ul>
+  </div>
+
+  <body>
+    <div class="login-center">
+      <div class="login-wrapper">
+        <div class="login-panel">
+          <div class="login-header">
+            <h2>Members</h2>
+            <a href="#">Need help?</a>
+          </div>
+          <form class="login-form">
+            <div class="input-group">
+              <input
+                type="text"
+                id="username"
+                placeholder="Enter your Username"
+                required
+              />
+            </div>
+            <div class="input-group">
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter your password"
+                required
+              />
+            </div>
+            <button type="submit" class="login-button">SIGN IN</button>
+          </form>
+          <div class="login-footer">
+            <p>Don’t have an account yet?</p>
+            <a href="#">Create an account</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2023 MagicRussian. All rights reserved.</p>
+      <p>Privacy Policy | Terms of Service | Contact Us</p>
+    </div>
+  </footer>
+</html>

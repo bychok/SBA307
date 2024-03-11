@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - Magic Russian</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <div class="header">
+    <ul class="left-logo">
+      <li>
+        <a href="./index.html">
+          <img
+            src="./assets/magicrussian-logo.svg"
+            alt="Logo / Homepage link"
+          />
+        </a>
+      </li>
+    </ul>
+
+    <ul class="right-links">
+      <li><a href="./register.html">Register</a></li>
+      <li class="dropdown">
+        <a href="./projects.html">Projects</a>
+        <div class="dropdown-content">
+          <a href="#">Project Alpha</a>
+          <a href="#">Project Beta</a>
+          <a href="#">Project Gamma</a>
+        </div>
+      </li>
+      <li><a href="./login.html">Login</a></li>
+    </ul>
+  </div>
+  <body>
+    <div class="register-center">
+      <div class="register-wrapper">
+        <div class="register-panel">
+          <div class="register-header">
+            <h2>Create Account</h2>
+          </div>
+          <form class="register-form">
+            <div class="input-group">
+              <input
+                type="text"
+                id="fullname"
+                placeholder="Full Name"
+                required
+              />
+            </div>
+            <div class="input-group">
+              <input type="email" id="email" placeholder="Email" required />
+            </div>
+            <div class="input-group">
+              <input
+                type="password"
+                id="password"
+                placeholder="Password"
+                required
+              />
+            </div>
+            <div class="input-group">
+              <input
+                type="password"
+                id="confirm-password"
+                placeholder="Confirm Password"
+                required
+              />
+            </div>
+            <button type="submit" class="register-button">REGISTER</button>
+          </form>
+          <div class="register-footer">
+            <p>Already have an account?</p>
+            <a href="./login.html">Sign in</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2023 MagicRussian. All rights reserved.</p>
+      <p>Privacy Policy | Terms of Service | Contact Us</p>
+    </div>
+  </footer>
+</html>
